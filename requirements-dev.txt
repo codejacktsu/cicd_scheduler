@@ -3,3 +3,4 @@ ruff
 ipykernel
 python-dotenv
 pytest
+ipykernel
