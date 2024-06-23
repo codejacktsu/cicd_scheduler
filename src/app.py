@@ -2,6 +2,8 @@ from utils.log_manager import create_logger
 
 
 def main():
+    logger = create_logger()
+
     # Sample log messages
     logger.debug('This is a debug message')
     logger.info('This is an info message')
@@ -10,5 +12,4 @@ def main():
     logger.critical('This is a critical message')
 
 if __name__ == "__main__":
-    logger = create_logger()
     main()
